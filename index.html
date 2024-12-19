@@ -22,13 +22,13 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="styles.css">
-    
-    </head>
+
+</head>
 
 <body>
     <!-- Inicio: Navbar  100% -->
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">App Store</a>
+        <a class="navbar-brand" href="#">App Store </a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
             aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,7 +39,16 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#Header">Header</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Testimonios">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Articulos">Articulos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Footer">Footer</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
@@ -63,48 +72,54 @@
 
 
         <!-- Inicio: Header  -->
-        <header class="mb-5 mt-5">
-            <div class="container ">
+        <header id="header" class="mb-5 mt-5">
+
+            <div class="container">
                 <div class="row">
                     <!-- Inicio: Contenedor 1  -->
-                    <div class="col-md-6 col-sm-12">
-                        <img src="Assets/Image20241216193948.png" class="w-100" alt="Smartphone">
+                    <div class="col-md-6 col-sm-6 ">
+                        <img src="Assets/image1.png" class="w-100" alt="">
                     </div>
                     <!-- Fin: Contenedor 1 -->
-                    <div class="col-md-6 col-sm-12">
-                        <div class="jumbotron">
-                            <h1 class="display-3">Jumbo heading</h1>
-                            <p class="lead">Jumbo helper text</p>
-                            <hr class="my-2">
-                            <p>More info</p>
-                            <p class="lead">
-                                <a class="btn btn-outline-danger btn-lg mt-2" href="Jumbo action link" role="button">Jumbo action name</a>
+
+                    <!-- Inicio: Contenedor 2  -->
+                    <div class="col-md-6 col-sm-6">
+                        <!-- b4-jumbotron-default -->
+                        <div class="">
+                            <h1 class="display-4">Jumbo heading</h1>
+                            <p class="lead mt-5">Jumbo helper text</p>
+                            <p class="lead mt-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatibus tempore libero
+                                 sit reiciendis quam harum error, eius expedita atque neque delectus nihil doloremque eligendi beatae quibusdam nostrum. Ullam, quae.
+                                
                             </p>
+                            <a class="btn btn-secondary btn-lg mt-2 d-flex justify-center" href="Jumbo action link"
+                                    role="button">Jumbo action name</a>
                         </div>
                     </div>
-                    <!-- Inicio: Contenedor 2  -->
-
                     <!-- Fin: Contenedor  2-->
                 </div>
             </div>
+
+
         </header>
         <!-- Fin: Header  -->
 
         <!-- Inicio: Main  -->
         <main>
-            <!-- Inicio: section  1 Testimonios -->
-            <section class="Testimonios">
+            <!-- Inicio: section  1 Testimonios  -->
+            <section id="Testimonios" class="Testimonios">
                 <!-- Inicio: Contenedor 1  -->
                 <div class="container">
                     Hola
                 </div>
             </section>
             <!-- Fin: Contenedor 1 -->
-            <!-- Fin: section 1 -->
 
-            <!-- Inicio: section 2  Articulos -->
-            <section class="Articulos">
+            <!-- Inicio: section 2 Articulos -->
+            <section id="Articulos" class="Articulos">
                 <div class="container">
+
                     <div class="row">
 
                         <!-- Inicio: Contenedor 1  -->
@@ -118,10 +133,14 @@
                             Hola
                         </div>
                         <!-- Fin: Contenedor  2-->
-                        </div>
                     </div>
-                    <!-- Fin: section  2-->
+
+                </div>
+
+
+
             </section>
+            <!-- Fin: section  2-->
 
         </main>
         <!-- Fin: Main  -->
@@ -129,46 +148,54 @@
     <!-- Fin: Container  -->
 
     <!-- Inicio: Footer  100% -->
-    <footer class="text-center">
+    <footer id="Footer" class="text-center">
         <!-- Inicio: footer-informacion    -->
-         <div class="container">
+        <div class="container">
             <div class="row">
-        <!-- Inicio: Contenedor 1 5 columnas  -->
-         <div class="col-sm-5 col-sm-6">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur voluptate enim iure vel unde voluptatibus sed cum quae dolores tempore, eaque laudantium facere, architecto quos maxime exercitationem sequi hic quisquam?</p>
-         </div>
+                <!-- Inicio: Contenedor 1 5 columnas  -->
 
-        <!-- Fin: Contenedor 1 -->
+                <div class="col-md-5 col-sm-6">
+                    <!-- Fin: Contenedor 1 -->
+                    <p class="text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Corporis quos dolorum possimus facere laborum! Sapiente ad veritatis, 
+                        laudantium itaque distinctio necessitatibus vel molestias, omnis incidunt 
+                        dolore in impedit sint totam?</p>
+                </div>
+                <!-- Fin: footer-mensaje -->
 
-        <!-- Inicio: Contenedor 2 5 columnas  -->
-         <div class="col-md-5 col-sm-6">
-            <!-- Fin: Contenedor 2 -->
-         </div>
-        
+                <!-- Inicio: Contenedor 2 5 columnas  -->
 
-        <!-- Inicio: Contenedor 3 2 columnas  -->
-         <div class="col-md-2 col-sm-6 iconos">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-youtube"></i>
-               <!-- Fin: Contenedor 3 -->
-         </div>
+                <div class="col-md-5 col-sm-6">
 
-         <div class="col-md-12">
-            <p class="text-muted">Copyright @2024 VLA | Front L-M</p>
-         </div>
-        <!-- Fin: footer-mensaje -->
+                    <!-- Fin: Contenedor 2 -->
 
-        <!-- Inicio: footer-mensaje    -->
-        <!-- Inicio: Contenedor 1 12 columnas  -->
+                </div>
+                <!-- Inicio: Contenedor 3 2 columnas  -->
+                <div class="col-md-2 col-sm-6 iconos">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                    <!-- Fin: Contenedor 3 -->
+                </div>
 
-        <!-- Fin: Contenedor 1 -->
-
-
-        <!-- Fin: footer-mensaje -->
             </div>
+            <!-- Inicio: Contenedor 1 12 columnas  -->
+            <div class="col-md-12 ">
+                <p class="text-muted"> Copyright @2024 VLA| Front L-M</p>
+            </div>
+            <!-- Fin: footer-mensaje -->
+
         </div>
+
+
+
+
+
+        <!-- Fin: Contenedor 1 -->
+
+
+
     </footer>
     <!-- Fin: Footer  -->
 

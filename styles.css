@@ -9,9 +9,9 @@ body{
 }
 
 header{
-    background-color: var(--colorglobal);
+    background: var(--colorglobal);
     color: var(--TextClaro);
-    background-color: var(--fondoGradiante);
+    background: var(--fondoGradiante);
 
 }
 main{
